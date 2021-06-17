@@ -1,0 +1,122 @@
+body{
+    background-color:#e0e0e0;
+    font-family:raleway,sans-serif;
+}
+h1,h2,h3{
+    font-weight:600;   
+}
+@media only screen and (min-width:850px){
+    h2{
+        text-align:center;
+    }
+}
+.titleheader{
+    padding-top:10px;
+    padding-bottom:10px;
+    letter-spacing: 10px;
+    font-weight:200;
+}
+.navmenu{
+    background-color:#9b5fc0;
+}
+
+.navlinks{
+    font-weight:600;
+    color:white;  
+}
+.navlinks:hover{
+    color:white;
+    border:solid 2px #fec615;  
+}
+  
+.header{
+    text-align:center;
+    background-color:rgb(54,69,79);
+    color:white;
+    padding:20px;
+    background:rgb(54,69,79) url(cover.png) no-repeat scroll center;
+    background-size:cover;   
+}
+.profilepicture{
+    width:350px; 
+    border-radius:100%;
+}
+
+@media only screen and (max-width:786px){
+    .profilepicture{
+        width:250px;
+        border-radius:100%;
+    }
+}
+    
+.institutions{
+    color:#9b5fc0;
+    font-weight:600;
+}
+.institutions:hover{
+    color:#fec615;
+}
+
+.footer{
+    text-align:center;
+    background-color:rgb(54,69,79);
+    color:white;
+    padding:10px;  
+}
+    
+.footericon{
+    padding:5px;
+    width:50px;
+}
+
+.iconcontainer{
+    display:inline-flex;
+    padding:15px;
+    margin-right:15px;
+    border:3px solid white;
+    border-radius:100%;
+    background-color:#fec615;
+}
+    
+.iconcontainer:hover{
+    background-color:#9b5fc0;
+    border-radius:0;
+    animation:iconcontainer 2s ease-in 1 normal;
+   
+}
+    
+@keyframes iconcontainer{
+    50%{border-radius:0;
+        transform:rotate(360deg);}
+    100%{border-radius:100%;}  
+}
+    
+@media only screen and (max-width:550px){
+    .footericon{
+        width:30px;
+        padding:2px;
+    }
+    .iconcontainer{
+    display:inline-flex;
+    padding:10px;
+    margin-right:15px;
+    border:3px solid white;
+    border-radius:100%;
+    background-color:#fec615;
+    }
+}
+@media only screen and (max-width:786px){
+    .footericon{
+        width:40px;
+        padding:5px;
+    }
+    .iconcontainer{
+    display:inline-flex;
+    padding:12px;
+    margin-right:15px;
+    border:3px solid white;
+    border-radius:100%;
+    background-color:#fec615;   
+    }
+
+
